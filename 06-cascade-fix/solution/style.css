@@ -1,0 +1,50 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.para,
+.small-para{
+    font-weight: bold;
+}
+
+.para{
+    font-size: 22px;
+}
+
+.small-para{
+    font-size: 14px;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+/*
+    The ID selector has a higher specificity thus the confirm button will be green in color.
+*/
+#confirm-button{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+div.text{
+    color: black;
+    font-weight: 100;
+    font-size: 22px;
+}
+/* 
+This will also work:
+.text.child{
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+}
+*/    
+div.child{
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+}
+
